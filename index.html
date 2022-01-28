@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica Atual</title>
+    <style>
+        @charset 'utf-8';
+        @font-face {
+            font-family: 'Pomegranate' ;
+            src: url(Fonte/Pomegranate.ttf) format('opentype');
+        }
+        @font-face {
+            font-family: 'Fresh' ;
+            src: url(Fonte/Florence-Regular.otf) format('opentype');
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+        :root{
+            --cor0:#33658A;
+            --cor1:#F96E46;
+            --cor2:#5DA271;
+            --cor3:#c8dbe9;
+            --cor4:#ffd560;
+
+            --font1:'Pomegranate';
+            --font2: 'Fresh';
+            --font3: 'Open Sans Condensed', sans-serif;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: var(--cor3);
+            font-family: var(--font3);
+        }
+        header{
+            background-image: linear-gradient(to bottom, #7fe29b,var(--cor2));
+            color: var(--cor4);
+            text-align: center;
+            padding: 50px;
+            box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.24);
+        }
+        header>h1{
+            padding-bottom:20px;
+            font-family: 'Pomegranate' ;
+            font-weight: normal;
+            font-size: 3em;
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.295);
+        }
+        header>p{
+            color: white;
+            font-size: 1.3em;
+        }
+        main{
+            margin: auto;
+            margin-bottom:30px;
+            padding: 20px;
+            min-width: 300px;
+            max-width: 800px;
+            background-color: white;
+            text-align: justify;
+            box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.116);
+        }
+        main h2{
+            padding: 10px;
+            font-weight: bold;
+            color: var(--cor0);
+        }
+        main p{
+            text-indent: 30px;
+        }
+        main img{
+            display: block;
+            margin:auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 5.3px 6px 8px rgba(0, 0, 0, 0.144);
+        }
+        figcaption{
+            margin-top: -10px;
+            text-align: center;
+            font-size: 0.9em;
+            color: rgb(49, 49, 49);
+        }
+        article#video>p{
+            text-indent:0px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            padding: 20px;
+        }
+        footer{
+            padding: 15px;
+            color: white;
+            background-color: var(--cor2);
+            text-align: center;
+            font-size: 1.2em;
+        }
+        footer a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        footer a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Musica do Brasil</h1>
+        <p>Nesse site vamos trazer um ponto de reflexão sobre as musicas atuais brasileiras.</p>
+    </header>
+    <main>   
+        <article>
+            <h2>Musica atual</h2>
+            <p>Já parou para pensar o quanto, hoje em dia, não nos importamos mais com as letras das músicas? Não ligamos para a história dela, do siguinificado delas, fazendo com que atualmente as músicas não tenham mais histórias emocionantes, com siguinigicado e sentimento como antigamente tinha. Nesses últimos anos nos deparamos com músicas em que o refrão é a melhor parte da música, e na nossa mente, é a única parte que importa.</p>
+            <p>
+                 Não é necessário que uma música conte algo, basta que tenha um bom refrão, que seje marcante e que a música esteje bombando para gostar dela e escuta-la constantemente até que perque a graça e/ou saia do seu auge. Isso faz com que muitas vezes enjoamos da música de um modo que não queremos mais ouvi-las por um bom tempo, "Meu Deus, eu não aguento mais escutar essa musica". Acredito que algumas redes sociais ajudaram nesse processo de, que eu chamo, era do refrão, com danças com os refrões das músicas, e os usuários fazem isso por likes, visualizações, diversão, fama, brincadeira e entre outras coisas.
+            </p> 
+        </article>
+        <picture>
+            <source media="(max-width:350px)" srcset="photo/foto01pp.jpg" type="image/png">
+            <source media="(max-width:657px)" srcset="photo/foto01.jpg" type="image/jpg" width="200px">
+            <img src="photo/foto01.jpg" alt="">
+            <figcaption>Imagem do Cristo Redentor no Rio de Janeiro.</figcaption>
+        </picture> 
+        <article>
+            <h2>Exemplo de musica</h2>
+            <p>
+                Vamos ver uma história? Bom, um dia um garoto e uma garota se encontraram sem querer e acabaram conversando, então o garoto chama ela para sair, eles estavam afim de se divertir então foram para uma festa, chegando lá a festa era muito estranha com pessoas muito esquisitas, passou um tempo e ele falou que não estava bem e não aguentava mais beber, ela riu do jeito dele, e ficou interessada em saber um pouco mais sobre ele, porém ele só pensava em ir para casa, pois já era duas horas da madrugada e ele ia se ferrar quando chegasse em casa. Eles pegaram o contato um do outro e foram embora.
+            </p>
+            <p>
+                Chegando lá ele vê que ela tem um cabelo pintado e ele achou estranho por algum motivo, mas não falou nada. Na conversa descobriram que não tinham nada em comum, ela era do siguino de Leão, ele tinha 16 anos, ela fazia medicina e ainda falava alemão, ele ainda estava fazendo um cursinho de inglês, ela gostava de músicos e de bandas incríveis, ele gostava de assistir novela e jogar futebol de botão com o avô dele. Ela era muito inteligente, sabia bem sobre política, gostava de meditar e lia algumas coisas sobre magia, ela tinha uma vibe boa, ele ainda estava estudando, só ia para o cinema e assistia televisão, porém mesmo com todas essas diferenças eles começaram se ver todos os dias, eles estavam gostando um do outro, fizeram juntos aula de natação, tiraram fotos, fizeram teatro, artesanato e até foram viajar. Ele aprendeu a beber, deixou o cabelo crescer, ela se formou no mesmo mês em que ele passou no vestibular. Algum tempo depois eles compraram uma casa, mais ou menos quando tiveram gêmeos e assim eles continuam a vida.
+                No dia seguinte eles foram ligação e decidiram se encontrar, ele sugeriu ir para a lanchonete mas ela queria ver um filme, acabou que decidiram ir para o parque da cidade.
+            </p> 
+            <br>
+            <p>
+               Gostou da história? Ela na verdade é uma música, chamada Eduardo e Mônica do Legião Urbana, e existem outras músicas com histórias muito boas, legais e com uma boa vibe por aí.
+               Deveríamos valorizar músicas assim, com história, siguinigicado, uma boa vibe, que trazem realmente sentimentos.
+            </p>
+        </article>
+        <br>
+        <article id="video">
+            <p>O video a seguir é um trailer do filme sobre a musica que foi lançado em 2020.</p>
+        </article>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IoSR5tl1AAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>Criado por <a href="https://github.com/julianomonteiro07" target="_blank">Juliano Monteiro</a></p>
+    </footer>
+</body>
+</html>
